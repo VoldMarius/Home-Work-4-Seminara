@@ -41,7 +41,8 @@ public class Main {
             SortArrayInt.sortingArray((ArrayList<Integer>) idw,data,4);
 
 
-        }  idw.addAll(idm);  long finish1 = System.currentTimeMillis();
+        }  idw.addAll(idm);
+        long finish1 = System.currentTimeMillis();
         long rez1 = finish1 - start1;
         System.out.println(" Время выполнения  " +  rez1);
         for (int i = 0; i < idw.size(); i++) {
