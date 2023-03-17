@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<String[]> data = new ArrayList<>();
-        System.out.println("Введите id ФИО, возраст, пол, рост: ");
+        System.out.println("Введите id ФИО, возраст, пол: ");
         while (sc.hasNext()) {
             List id = new ArrayList();
             String name = sc.nextLine();
